@@ -8,12 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
-    </ItemGroup>
-
-    <ItemGroup>
         <ProjectReference Include="..\VideoLibrary.Data\VideoLibrary.Data.csproj"/>
         <ProjectReference Include="..\VideoLibrary.RabbitMqBase\VideoLibrary.RabbitMqBase.csproj"/>
+        <ProjectReference Include="..\VideoLibrary.Shared\VideoLibrary.Shared.csproj"/>
     </ItemGroup>
 
 </Project>
